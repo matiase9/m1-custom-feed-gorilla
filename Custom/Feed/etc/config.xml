@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Custom_Feed>
+            <version>0.0.1</version>
+        </Custom_Feed>
+    </modules>
+    <global>
+        <models>
+        	<gorilla_feed>
+                <rewrite>
+                    <google>Custom_Feed_Model_Google</google>
+                </rewrite>
+        	</gorilla_feed>
+        </models>
+    </global>
+</config>
